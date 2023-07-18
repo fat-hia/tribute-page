@@ -1,0 +1,144 @@
+
+/* GENRAL STYLES */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 16px;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #111111;
+  background: #FFFFFF;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+/* COMMON STYLES */
+
+a{
+  text-decoration: none;
+}
+.link:hover{
+  text-decoration: underline;
+}
+.btn{
+  background-color: #111111;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  padding: 16px 36px;
+  border-radius: 30px;
+  display: inline-block;
+  margin-top: 20px;  
+}
+.btn:hover{
+  background-color: #333;
+}
+.aboveline{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #0e87b1;
+}
+.heading, .link{
+  color: #b32624;
+  margin-top: 6px;
+}
+
+/* HERO */
+
+.main-heading{
+  font-size: 3.6rem;
+  font-weight: 900;
+  line-height: 4rem;
+}
+.subheading{
+  margin-top: 8px;;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+header{
+  width: 100%;
+  background-image: linear-gradient(120deg, rgba(14, 135, 177, 0.9) 25%, rgba(153, 48, 46, 0.9) 75%), url('../images/hero-image.jpg');
+  background-size: cover;
+  background-position: 40% 90%;
+  color: #FFFFFF;
+  min-height: 100vh;
+  padding: 35vh 24px;
+}
+
+/* MAIN */
+
+main{
+  padding: 72px 24px;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* PORTRAIT */
+
+.portrait{
+  width: 100%;
+  margin-bottom: 48px;
+}
+.portrait img{
+  width: 100%;
+  max-width: 380px;
+  border: 24px solid #FFFFFF;
+  box-shadow: 0 0 30px 0 rgba(0,0,0,0.1);
+}
+
+/* ABOUT */
+
+.about{
+  width: 100%;
+  text-align: left;
+}
+
+.about-text{
+  margin: 20px 0;
+}
+
+/* CLOSING */
+
+.closing{
+  background: url('../images/heart.png') no-repeat bottom left;
+  background-color: #f8f8f8;
+  box-shadow:0 0 24px 0 rgba(12, 12, 12, 0.1);
+  padding: 96px 24px;
+  width: 100%;
+}
+h3{
+  font-size: 1.7rem;
+  line-height: 2.25rem;
+}
+
+/*FOOTER*/
+
+footer{
+  padding: 72px 24px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 960px){
+  .portrait{
+    width: 380px;
+    padding-right: 36px;
+    float: left;
+  }
+  .about-text{
+    font-size: 0.94rem;
+    line-height: 1.37rem;
+    margin: 16px 0;
+  }
+  .closing{
+    margin-top: 24px;
+  }
+}
+
